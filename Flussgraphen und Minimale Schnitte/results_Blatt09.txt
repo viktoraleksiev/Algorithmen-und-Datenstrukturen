@@ -1,0 +1,29 @@
+viktoraleksiev01,  03.07.2019, 04:05:05
+Korrektur Blatt 9
+
+Aufgabe 2.1
+	Test output of numberOfEdgeDisjointPaths() on medium-sized graphs: 10/10
+	Test output of numberOfEdgeDisjointPaths() on small graphs: 10/10
+Total points for Aufgabe 2.1: 20/20
+
+Aufgabe 2.2
+	Test output of edgeDisjointPaths() on medium-sized graphs: 10/10
+	Test output of edgeDisjointPaths() on small graphs: 10/10
+Total points for Aufgabe 2.2: 20/20
+
+Aufgabe 3.1
+	Test output of isUnique() on medium-sized flowgraphs: 20/20
+	Test output of isUnique() on a small flowgraph which is not unique due to a second source: 2/2
+	Test output of isUnique() on small flowgraphs: 0/18
+	  java.lang.AssertionError: Method 'isUnique()' does not return the expected result.
+We called isUnique() for nodes #6 and #2
+in the flowgraph 'FlowNetwork4cuts-S-1.txt' which can be downloaded from https://tubcloud.tu-berlin.de/s/J7mbT48XnLjMxDc.
+Our reference method returned false, while your returned value true.
+Total points for Aufgabe 3.1: 22/40
+
+Aufgabe 3.2
+	Test output of findBottlenecks() on medium-sized flowgraphs: 10/10
+	Test output of findBottlenecks() on small flowgraphs: 10/10
+Total points for Aufgabe 3.2: 20/20
+
+Total points: 82/100

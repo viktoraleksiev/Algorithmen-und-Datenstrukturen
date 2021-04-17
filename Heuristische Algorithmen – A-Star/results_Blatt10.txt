@@ -1,0 +1,31 @@
+viktoraleksiev01,  11.07.2019, 04:27:22
+Korrektur Blatt 10
+
+Aufgabe 1.1
+	Test output of manhattan() on complex boards: 5/5
+	Test output of manhattan() on medium complex boards: 5/5
+	Test output of manhattan() on simple boards: 5/5
+Total points for Aufgabe 1.1: 15/15
+
+Aufgabe 1.2
+	Test output of compareTo() on fresh PartialSolutions (without performing moves): 4/4
+	Test output of compareTo() on PartialSolutions after performing moves: 4/4
+	Test the copy constructor (requires doMove() and isSolution() to work): 4/4
+	Test doMove() (requires isSolution() to work): 4/4
+	Test output of isSolution(): 4/4
+	Test output of moveSequence(): 1/1
+	Test output of validMoves(): 4/4
+Total points for Aufgabe 1.2: 25/25
+
+Aufgabe 1.3
+	Test solveByAStar() with simple 3x3 boards: 10/10
+	Test solveByAStar() with moderate 4x4 boards: 10/10
+	Test solveByAStar() with simple 4x4 boards: 10/10
+	Test solveByAStar() with moderate 5x5 boards: 10/10
+	Test solveByAStar() with hard 6x6 boards: 5/5
+	Test solveByAStar() with simple non-quadratic boards: 5/5
+	Test solveByAStar() with moderate 3x3 boards: 0/10
+	  org.testng.internal.thread.ThreadTimeoutException: Method org.testng.internal.TestNGMethod.testSolveAStar3x3Medium() didn't finish within the time-out 1000
+Total points for Aufgabe 1.3: 50/60
+
+Total points: 90/100
